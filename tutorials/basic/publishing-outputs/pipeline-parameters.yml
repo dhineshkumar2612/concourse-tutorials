@@ -9,8 +9,8 @@ resources:
     type: git
     source:
       branch: master
-      uri: ((publishing-outputs-gist-uri))
-      private_key: ((publishing-outputs-private-key))
+      uri: git@gist.github.com:dbbfaf83a877e2f8ab218502f7e77200.git
+      private_key: 
 
 jobs:
   - name: job-bump-date
